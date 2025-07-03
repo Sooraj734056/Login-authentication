@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secured Page</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div>
+    <h2>Welcome, {{ username }}!</h2>
+    <p>This is the secured page. Only logged-in users can see this.</p>
+    <a href="/logout">Logout</a>
+  </div>
+  <ul class="bg-bubbles">
+    <li></li><li></li><li></li><li></li><li></li>
+    <li></li><li></li><li></li><li></li><li></li>
+  </ul>
+</body>
+</html>
